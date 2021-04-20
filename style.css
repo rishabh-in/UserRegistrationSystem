@@ -1,0 +1,16 @@
+* {
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+    text-align: center;
+    text-justify: left;
+}
+
+
+.header {
+    margin-top:10%;
+}
+.input-form {
+    margin-top: 20px;
+}
