@@ -39,7 +39,7 @@
             </div>
 
             <div class='input-form-btn'>
-                <button type="submit" name='register_user'>Submit</button>
+                <button class='btn' type="submit" name='register_user'>Submit</button>
             </div>
 
             <p>Already a User<a href="login.php"><strong>Login</strong></a></p>

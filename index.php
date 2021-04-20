@@ -42,7 +42,7 @@
 
 <?php if(isset($_SESSION['username'])):?>
     <h3>Welcome <strong><?php echo $_SESSION['username']; ?></strong></h3>
-<button><a href="index.php?logout='1'">logout</a></button>
+<button class="btn"><a href="index.php?logout='1'">logout</a></button>
     
 <?php endif ?>
 

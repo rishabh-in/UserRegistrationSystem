@@ -28,8 +28,8 @@
                 <input type="password" name="password" >
             </div>
 
-            <div class='input-form'>
-                <button type="submit" name="login_user">Log in</button>
+            <div class='input-form-btn'>
+                <button  class='btn' type="submit" name="login_user">Log in</button>
             </div>
 
             <p>Not a User<a href="registration.php"><strong> Register here</strong></a></p>
