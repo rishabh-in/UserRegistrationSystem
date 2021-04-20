@@ -12,8 +12,6 @@ password  -  varchar(100)
 
 You can create this using a MySQL client like PHPMyAdmin.
 
-<<<<<<< HEAD
-=======
 ## Registering a user
 ![userRegistration](https://user-images.githubusercontent.com/43580878/115341372-1ef68100-a1c6-11eb-83a3-1bfad92474ee.PNG)
 ![userRegistration2](https://user-images.githubusercontent.com/43580878/115341375-2027ae00-a1c6-11eb-890f-2452dbc85c17.PNG)
@@ -29,5 +27,4 @@ You can create this using a MySQL client like PHPMyAdmin.
 ![index](https://user-images.githubusercontent.com/43580878/115341496-5fee9580-a1c6-11eb-8821-a23388a5a20c.PNG)
 
 
->>>>>>> 1f320360137baefa1e3e4d84d89d1b54854f918e
 
