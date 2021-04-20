@@ -12,4 +12,4 @@ password  -  varchar(100)
 
 You can create this using a MySQL client like PHPMyAdmin.
 
-##
+

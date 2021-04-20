@@ -14,37 +14,38 @@
         <div class="header">
             <h2>Register</h2>
         </div>
-        <form action='registration.php' method="post">
+        <div class="form-data">
+            <form action='registration.php' method="post">
+                <?php include('errors.php'); ?>
+                <div class='input-form'>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" required>
+                </div>
 
-            <?php include('errors.php'); ?>
+                <div class='input-form'>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+                </div>
 
-            <div class='input-form'>
-                <label for="username">Username</label>
-                <input type="text" name="username" required>
-            </div>
+                <div class='input-form'>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" required>
+                </div>
 
-            <div class='input-form'>
-                <label for="email">Email</label>
-                <input type="email" name="email" required>
-            </div>
+                <div class='input-form'>
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" name="confirm_password" required>
+                </div>
 
-            <div class='input-form'>
-                <label for="password">Password</label>
-                <input type="password" name="password" required>
-            </div>
+                <div class='input-form-btn'>
+                    <button class='btn' type="submit" name='register_user'>Submit</button>
+                </div>
 
-            <div class='input-form'>
-                <label for="confirm_password">Confirm Password</label>
-                <input type="password" name="confirm_password" required>
-            </div>
+                <p class='login-btn'>Already a User<a href="login.php"><strong>Login</strong></a></p>
 
-            <div class='input-form-btn'>
-                <button class='btn' type="submit" name='register_user'>Submit</button>
-            </div>
-
-            <p>Already a User<a href="login.php"><strong>Login</strong></a></p>
-
-        </form>
+            </form>
+        </div>
+        
     </div>
 </body>
 </html>

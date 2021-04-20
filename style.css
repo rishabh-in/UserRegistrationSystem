@@ -11,6 +11,11 @@
 .header {
     margin-top:10%;
 }
+.form-data {
+    width: 60%;
+    margin: auto;
+    background:red;
+}
 .input-form {
     margin-top: 20px;
 }
@@ -28,4 +33,21 @@
     background-color:white;
     color: crimson;
     border-color:crimson;
+}
+.register-btn, .login-btn{
+    margin-top:50px;
+}
+a {
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius:6px;
+    padding:10px;
+}
+.errors{
+    width:35%;
+    margin: auto;
+    background-color:rgb(218, 51, 51);
+}
+.error {
+    background-color:rgb(218, 51, 51);
 }
